@@ -1,11 +1,10 @@
 # AI-Project
-"## Summary"
 EcoCompass is an AI-driven application that helps individuals track and reduce their personal carbon footprint by integrating data from daily travel, purchases, home energy use, and diet.
 AI Project: EcoCompass – Smart Personal Carbon Footprint Tracker
 Idea in a Nutshell
 EcoCompass is an AI-powered mobile and web application that helps individuals track, analyze, and reduce their personal carbon footprint in real time by integrating data from daily activities, purchases, travel, and home energy use, offering personalized sustainability recommendations.
 
-Background
+# Background
 Problem
 Climate change is accelerated by high carbon emissions, yet most people lack visibility into their personal environmental impact. Existing footprint calculators are often manual, infrequent, and lack personalized actionable advice.
 
@@ -37,7 +36,7 @@ Local grid carbon intensity (Electricity Maps API).
 
 Public transport schedules and emission factors.
 
-AI Techniques
+# AI Techniques
 NLP – For extracting activity details from manual journal entries or receipt scans (using BERT-based models).
 
 Computer Vision – Classifying food or products from photos to estimate emissions (ResNet/CLIP).
@@ -51,7 +50,7 @@ Anomaly Detection – Identifying unusual high-emission activities (Isolation Fo
 Demo Implementation (Conceptual)
 A simplified Python demo using mock data to predict weekly footprint from travel and diet:
 
-python
+# python code
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor
@@ -81,7 +80,7 @@ Primary users: Environmentally conscious individuals, households, sustainability
 
 Usage: Daily tracking via mobile app, weekly reports, goal-setting features.
 
-Affected parties:
+# Affected parties:
 
 Users: Gain awareness and reduce costs (e.g., energy savings).
 
@@ -89,7 +88,7 @@ Communities: Benefit from aggregated anonymized data for local climate initiativ
 
 Businesses: Access anonymized insights to design greener products/services.
 
-User Journey
+# User Journey
 Sign up → connect data sources (bank, smart home, mobility).
 
 Dashboard shows real-time footprint breakdown.
@@ -100,7 +99,7 @@ Earn points/ranks for sustainable choices.
 
 Join community challenges.
 
-Challenges
+# Challenges
 Data Privacy: Sensitive financial and location data requires robust encryption and explicit consent.
 
 Accuracy: Estimates rely on generalized emission factors; individual variations exist.
@@ -109,9 +108,9 @@ Behavior Change: App engagement may drop if recommendations feel burdensome.
 
 Digital Divide: Excludes those without smartphones or bank APIs.
 
-Scope Limitations: Focuses on individual actions; doesn’t address systemic/industrial emissions.
+# Scope Limitations: Focuses on individual actions; doesn’t address systemic/industrial emissions.
 
-What Next
+# What Next
 Partnerships with retailers for carbon-labeled products.
 
 Gamification with corporate sustainability programs (employee challenges).
@@ -120,16 +119,16 @@ Policy Tool: Aggregate anonymized data to inform urban planning and transit poli
 
 Advanced Features: Carbon offset marketplace integration, real-time grid-aware appliance usage tips.
 
-Acknowledgments
+# Acknowledgments
 Data Sources: UK Department for Business, Energy & Industrial Strategy (BEIS) GHG conversion factors; OpenFoodFacts database.
 
 Inspirations: Existing apps like Joro and Olive; research from MIT’s Climate Portal.
 
 Open Source Libraries: scikit-learn, TensorFlow, Hugging Face Transformers, Pandas.
 
-APIs: Plaid, Google Maps, Electricity Maps.
+# APIs: Plaid, Google Maps, Electricity Maps.
 
 EcoCompass aims to bridge the gap between climate awareness and daily action, empowering individuals with AI to make sustainability simple, measurable, and rewarding.
 
-"## Summary"
+# Summary
 EcoCompass is an AI-driven application that helps individuals track and reduce their personal carbon footprint by integrating data from daily travel, purchases, home energy use, and diet. Using machine learning—including NLP for activity logging, computer vision for food recognition, and time-series forecasting for footprint predictions—the app provides personalized, actionable recommendations to encourage sustainable habits. It addresses the need for real-time, user-friendly carbon accountability while acknowledging limitations in data accuracy and privacy. Future expansions include gamification, corporate partnerships, and policy-informing data analytics. The project draws on open-source libraries and public emission databases to make climate action accessible and engaging.
